@@ -1,0 +1,43 @@
+<html>
+<!-- TODO: MISSING INTEGRITIES -->
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdn.maptiler.com/maptiler-sdk-js/latest/maptiler-sdk.umd.js"></script>
+    <link href="https://cdn.maptiler.com/maptiler-sdk-js/latest/maptiler-sdk.css" rel="stylesheet" />
+    <script src="https://cdn.maptiler.com/leaflet-maptilersdk/latest/leaflet-maptilersdk.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body onload="init()">
+    <div>
+        <div id="map"></div>
+        <div id="bottomWrapper">
+            <div id="attributions">
+                <a href="https://www.maptiler.com" style="margin: 0 0 4px 10px;outline-style: none;"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo" width="100" height="30"></a>
+                <div style="font-size: 12px; color: #0078A8; bottom: 2px; position: initial;"><div style="float: initial; background: rgba(255, 255, 255, 0.8);" class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com" title="A JavaScript library for interactive maps"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" class="leaflet-attribution-flag"><path fill="#4C7BE1" d="M0 0h12v4H0z"></path><path fill="#FFD500" d="M0 4h12v3H0z"></path><path fill="#E0BC00" d="M0 7h12v1H0z"></path></svg> Leaflet</a> <span style="color: black" aria-hidden="true">|</span> <a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a></div></div>
+            </div>
+            <div id="contentWrapper" class="resizableVertical contract">
+                <div id="content">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div onclick="listTransition()" class="resizableHorizontal expand">
+        <div id="expandArrow">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+        </div>
+        <div id="lists">
+            <h1>Stationer</h1>
+            <div id="stationer"></div>
+            <h1>Attraktioner</h1>
+            <div id="attraktioner"></div>
+        </div>
+    </div>
+</body>
+
+</html>

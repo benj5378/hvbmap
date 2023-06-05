@@ -1,0 +1,74 @@
+[
+    {
+        "latlng": [55.64763, 12.18761],
+        "title": "Hedehusgård station",
+        "content": "Her ligger vores værksteder, remiser og museumshallen. I den har vi en enestående samling af gamle, smalsporede lokomotiver, som vi gerne viser frem på opfordring. Rundt om stationens spor ligger rideskolens marker, hvis interessen for se på heste er større end at se på hestekræfter... Besøg også den fine ventesal og udendørs venteområde med klatrestativer",
+        "type": "station"
+    },
+    {
+        "latlng": [55.64104486469708, 12.18649287546294],
+        "title": "Sølund station",
+        "content": "Når der er fløjtet afgang, så tager banen snart efter en skarp kurve og en stejl bakke ned forbi rideanlægget og på den modsatte side Spejderområdet. Turen fortsætter gennem den tætte skov op til den første station. Det er Sølund station, der ligger ved Fiskesøen. På den modsatte side ligger kolonihaverne oppe bag bakken. På højre side går vejen til Speedwaybanen.",
+        "type": "station"
+    },
+    {
+        "latlng": [55.637693414779356, 12.187253959028071],
+        "title": "Stenager trinbræt",
+        "content": "Her begynder den 4 km lange natursti gennem Dopperne og rundt skov-området ved Nymølle sø. Det er også her, der er omstigning til mindre tog, idet Brandhøjbanen her har passagertrafik på den 1200 meter lange model-jernbane. Se mere omderes klub og køredage på brandhojbanen.dk. Vi kan nu se ud over Vinkelsø på venstre side og kører kort efter ind på Brandhøj Station.",
+        "type": "station"
+    },
+    {
+        "latlng": [55.636343012738216, 12.182856028621858],
+        "title": "Brandhøj station",
+        "content": "Her ses klubbens lagerhal, i den står der mange, gamle og rustne lokomotiver for at skærme dem mod vind ogvejr, så de en dag kan sættes i stand. Her ligger også skinner og materiel til den videre udbygning afbanen. På de faste køredage passerer damp- og motortogene hinanden her. Turen fortsætter og snart kører vi ud over Hedesletten, hvor køerne regerer. Nyd det flotte panorama med sletten, søer og ”bjergene” i baggrunden!",
+        "type": "station"
+    },
+    {
+        "latlng": [55.62873469607269, 12.172326849399871],
+        "title": "Flintebjerg trinbræt",
+        "content": "Dette er stoppet kort efter sletten og som ligger ved foden til skibakken. De mange \"bjerge\" som du lige så på vejen er noget unaturlige i Danmark - ja, de er faktisk bragt af mange årtiers grusgravning, der med tiden er ophørt og blevet til et sjældent bakket område nær hovedstaden.",
+        "type": "station"
+    }, 
+    {
+        "latlng": [55.62462086168023, 12.169836333747323],
+        "title": "Rubjerg station",
+        "content": "Lorum ipsumHer kan man bl.a. se Amfiteateret og nyde den den medbragte kaffe på en af de 3500 pladser med udsigt over Flintesø. Man kan også lege og spille bold på den store mark, eller gåpå opdagelse på stierne i Lergraven, hvor man finder Madpakkehusene med overdækket bålplads. På Tempelbjerget overfor Rubjerg blev i 2018 opført Temple of Tokamak, hvori man kan efterlade alle sine bekymringer i det store vandfad – eller bare nyde udsigten...",
+        "type": "station"
+    },
+    {
+        "latlng": [55.61959954665325, 12.163846881673097],
+        "title": "Plantagen trinbræt",
+        "content": "Herfra er der ikke langt at gå til Hedeland Golf, der også har et cafeteria. Når toget passerer Stærkendevej, så er det til lyden af klokker fra signalanlægget, der skal advare trafikken. Nu indledes den sidste del af turen, hvor man til venstre side passerer Tøltebanen til de Islandske heste og til højre den store naturlegeplads med motionsbaner, legeredskaber,svævebane, udsigtstårne, broer, søer, kanaler og en overdækket grillplads",
+        "type": "station"
+    },
+    {
+        "latlng": [55.614901246016636, 12.159825481195481],
+        "title": "Fem Ege station",
+        "content": "Lorum ipsumMålet er nået, når toget kører ind på Fem Ege Station. Den er døbt således da 5 egetræer blev plantet ved Hedelands 25 års jubilæum for at tælle de tre kommuner og to tidl. amter, som Hedeland Naturpark ligger i. Har man mere lyst til at vandre en tur, så ligger Vinterrasserne just på den anden side af broen over Vindingevej. På denne brokommer toget en dag til at køre henover, på banens planlagte vej mod Tune.",
+        "type": "station"
+    },
+    {
+        "latlng": [55.626039, 12.168383],
+        "title": "Temlple of Tokamak",
+        "content": "",
+        "type": "attraction"
+    },
+    {
+        "latlng": [55.62416786125351, 12.174745150406636],
+        "title": "Amfiteatret",
+        "content": "",
+        "type": "attraction"
+    },
+    {
+        "latlng": [55.625875921949806, 12.172765325106417],
+        "title": "Skibakken",
+        "content": "",
+        "type": "attraction"
+    },
+    {
+        "latlng": [55.61799413477502, 12.159675941598294],
+        "title": "Naturlegepladsen",
+        "content": "",
+        "type": "attraction"
+    }
+]

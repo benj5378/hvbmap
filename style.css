@@ -1,0 +1,148 @@
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url(./Gilroy-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url(./Cabin-VariableFont_wdth\,wght.ttf) format('truetype');
+}
+
+* {
+    font-family: 'Cabin';
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'Raleway';
+}
+
+body {
+    margin: 0;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#bottomWrapper {
+    position: relative;
+    z-index: 2;
+    transform: translate(0, -100%);
+}
+
+#contentWrapper {
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border-top: 20px solid #ffffff65;
+}
+
+/* #content {
+        padding: 1em;
+    } */
+
+.resizableHorizontal {
+    overflow: hidden;
+}
+
+.resizableHorizontal.expand {
+    width: 400px;
+    transition: width 0.7s;
+}
+
+.resizableHorizontal.contract {
+    width: 0;
+    transition: width 0.7s;
+}
+.resizableVertical {
+    overflow: hidden;
+}
+
+.resizableVertical.expand {
+    height: 200px;
+    transition: height 0.7s;
+}
+
+.resizableVertical.contract {
+    height: 0;
+    transition: height 0.7s;
+}
+
+#content {
+    margin: 1em 1.2em;
+}
+
+#attributions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.leaflet-tooltip {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    font-family: "Gilroy Bold";
+    font-size: 16px;
+    transform: translate(0, -8%);
+}
+
+.pin {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+}
+
+.pin > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -42%);
+    font-family: "Gilroy Bold";
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+:has([id="map"]) {
+    flex: 1;
+}
+
+#lists {
+    padding: 0 1em;
+    width: calc(400px - 1em )
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7em;
+    margin-top: 0.5em;
+}
+
+#expandArrow {
+    position: absolute;
+    transform: translate(calc(-100%), 100%);
+    z-index: 2;
+    cursor: pointer;
+    width: fit-content;
+    padding: 0.4em;
+    font-size: 1.8em;
+    background-color: white;
+}
+
+#expandArrow > * > svg {
+    width: 1em;
+    height: 1em;
+}
